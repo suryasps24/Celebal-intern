@@ -1,0 +1,11 @@
+function compareTriplets(a, b) 
+{
+    const compare = [0,0]
+    
+    for(let i=0; i<a.length; i++)
+    a[i] > b[i] ? compare[0]++ : 
+    a[i] < b[i] ? compare[1]++:
+    a[i] == b[i] ? compare[0-1]:''
+    return compare
+    
+ }
